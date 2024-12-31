@@ -15,7 +15,7 @@ Node *create_node(int data)
     return ptr;
 }
 
-void insert_node(struct Node **head, int data)
+void push_node(struct Node **head, int data)
 {
     struct Node *ptr = create_node(data);
 
@@ -40,19 +40,22 @@ void show_node(struct Node *head)
         temp = temp->next;
     }
 }
+
+void insert_node()
+{
+}
+
 int main()
 {
-    // struct Node *head = NULL;
-    // int n;
-    // scanf("%d", &n);
-    // for (int i = 0; i < n; i++)
-    // {
-    //     int num;
-    //     scanf("%d", &num);
-    //     insert_node(&head, num);
-    // }
-    // show_node(head);
-    int n = 8;
-    printf("&num %d", &n);
+    struct Node *head = NULL;
+    int n;
+    scanf("%d", &n);
+    for (int i = 0; i < n; i++)
+    {
+        int num;
+        scanf("%d", &num);
+        insert_node(&head, num);
+    }
+    show_node(head);
     return 0;
 }

@@ -58,6 +58,7 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
     "Linked-list.C": "cpp",
-    "FinalLinkedList.C": "cpp"
+    "FinalLinkedList.C": "cpp",
+    "Linked-list-add-middle.C": "cpp"
   }
 }
