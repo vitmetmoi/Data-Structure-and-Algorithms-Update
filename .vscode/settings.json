@@ -59,6 +59,8 @@
   "files.associations": {
     "Linked-list.C": "cpp",
     "FinalLinkedList.C": "cpp",
-    "Linked-list-add-middle.C": "cpp"
+    "Linked-list-add-middle.C": "cpp",
+    "isTriangle.C": "cpp",
+    "LinkedListReverse.C": "cpp"
   }
 }
