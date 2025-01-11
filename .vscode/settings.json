@@ -61,6 +61,10 @@
     "FinalLinkedList.C": "cpp",
     "Linked-list-add-middle.C": "cpp",
     "isTriangle.C": "cpp",
-    "LinkedListReverse.C": "cpp"
+    "LinkedListReverse.C": "cpp",
+    "rectangle.C": "cpp",
+    "stack.C": "cpp",
+    "isMerge.C": "cpp",
+    "queue.C": "cpp"
   }
 }

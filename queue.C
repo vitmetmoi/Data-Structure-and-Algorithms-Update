@@ -21,37 +21,44 @@ void push_node(struct Node **head, int data)
     if (*head == NULL)
     {
         *head = ptr;
+        return;
     }
-    else
+
+    struct Node *temp = *head;
+    while (temp->next != NULL)
     {
-        struct Node *tmp = *head;
-        while (tmp->next != NULL)
-        {
-            tmp = tmp->next;
-        }
-        tmp->next = ptr;
+        temp = temp->next;
     }
+    temp->next = ptr;
 }
 
 void pop_node(struct Node **head)
 {
-    if (*head != NULL)
+    if (*head == NULL)
     {
-        struct Node *tmp = *head;
-        while (tmp->next != NULL && tmp->next->next != NULL)
-        {
-            tmp = tmp->next;
-        }
-        tmp->next = NULL;
+        return;
     }
+
+    struct Node *temp = *head;
+    *head = (*head)->next;
+    free(temp);
 }
 
 void show_node(struct Node *head)
 {
+    if (head == NULL)
+    {
+        return;
+    }
+
     struct Node *temp = head;
     while (temp != NULL)
     {
-        printf("%d ", temp->data);
+        printf("%d", temp->data);
+        if (temp->next != NULL)
+        {
+            printf(" ");
+        }
         temp = temp->next;
     }
 }
@@ -61,6 +68,7 @@ int main()
     struct Node *head = NULL;
     int n;
     scanf("%d", &n);
+
     for (int i = 0; i < n; i++)
     {
         int choice;
@@ -76,5 +84,7 @@ int main()
             push_node(&head, num);
         }
     }
+
     show_node(head);
+    return 0;
 }

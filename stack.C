@@ -35,17 +35,24 @@ void push_node(struct Node **head, int data)
 
 void pop_node(struct Node **head)
 {
-    if (*head != NULL)
-    {
-        struct Node *tmp = *head;
-        while (tmp->next != NULL && tmp->next->next != NULL)
-        {
-            tmp = tmp->next;
-        }
-        tmp->next = NULL;
-    }
-}
 
+    if (*head == NULL)
+    {
+        return;
+    }
+    if ((*head)->next == NULL)
+    {
+        free(*head);
+        *head = NULL;
+        return;
+    }
+    struct Node *tmp = *head;
+    while (tmp->next != NULL && tmp->next->next != NULL)
+    {
+        tmp = tmp->next;
+    }
+    tmp->next = NULL;
+}
 void show_node(struct Node *head)
 {
     struct Node *temp = head;
