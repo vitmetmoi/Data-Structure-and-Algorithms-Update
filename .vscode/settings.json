@@ -65,6 +65,8 @@
     "rectangle.C": "cpp",
     "stack.C": "cpp",
     "isMerge.C": "cpp",
-    "queue.C": "cpp"
+    "queue.C": "cpp",
+    "book.C": "cpp",
+    "tree.C": "cpp"
   }
 }
