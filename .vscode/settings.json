@@ -67,6 +67,12 @@
     "isMerge.C": "cpp",
     "queue.C": "cpp",
     "book.C": "cpp",
-    "tree.C": "cpp"
+    "tree.C": "cpp",
+    "ballon.C": "cpp",
+    "search.C": "cpp",
+    "findThePosition.C": "cpp",
+    "findInSecondArr.C": "cpp",
+    "FindInSecondArr1.C": "cpp",
+    "binarySearch.C": "cpp"
   }
 }
