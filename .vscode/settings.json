@@ -73,6 +73,9 @@
     "findThePosition.C": "cpp",
     "findInSecondArr.C": "cpp",
     "FindInSecondArr1.C": "cpp",
-    "binarySearch.C": "cpp"
+    "binarySearch.C": "cpp",
+    "circle.C": "cpp",
+    "FindMSV.C": "cpp",
+    "ZeroTo100.C": "cpp"
   }
 }
