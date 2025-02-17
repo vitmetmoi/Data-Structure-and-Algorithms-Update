@@ -76,6 +76,11 @@
     "binarySearch.C": "cpp",
     "circle.C": "cpp",
     "FindMSV.C": "cpp",
-    "ZeroTo100.C": "cpp"
+    "ZeroTo100.C": "cpp",
+    "finalQueue.C": "cpp",
+    "FinalReverseLinkedList.C": "cpp",
+    "FinalTree.C": "cpp",
+    "FinalSearch.C": "cpp",
+    "FinalSort.C": "cpp"
   }
 }
