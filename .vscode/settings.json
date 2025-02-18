@@ -81,6 +81,8 @@
     "FinalReverseLinkedList.C": "cpp",
     "FinalTree.C": "cpp",
     "FinalSearch.C": "cpp",
-    "FinalSort.C": "cpp"
+    "FinalSort.C": "cpp",
+    "MiddleTermTest1.C": "cpp",
+    "MiddleTermTest2.C": "cpp"
   }
 }
