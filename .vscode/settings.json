@@ -83,6 +83,8 @@
     "FinalSearch.C": "cpp",
     "FinalSort.C": "cpp",
     "MiddleTermTest1.C": "cpp",
-    "MiddleTermTest2.C": "cpp"
+    "MiddleTermTest2.C": "cpp",
+    "Addition.C": "cpp",
+    "hash.C": "cpp"
   }
 }
