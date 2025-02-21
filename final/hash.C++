@@ -13,12 +13,24 @@ unsigned long adler32(string &data)
     }
     return (b << 16) | a;
 }
+unsigned long hashDJB2(string str)
+{
+    unsigned long hash = 5381;
+    for (char c : str)
+    {
+        hash = ((hash << 5) + hash) + c;
+    }
+    return hash % 1000;
+}
 
 int main()
 {
     int n;
     cin >> n;
-    for (int im)
+    for (int i = 0; i < n; i++)
+    {
         string s;
-    cin >> s;
+        cin >> s;
+        cout << hashDJB2(s) << " ";
+    }
 }
